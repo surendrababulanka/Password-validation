@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="password-container">
+        <form>
+            <label for="password">password</label>
+            <input autocomplete="off" type="password" id="password" placeholder="password">
+            <label for="cnfrpassword">conform password</label>
+            <input autocomplete="off" type="password" id="cnfrpassword" placeholder="conform password">
+            <p id="message"></p>
+            <input type="button" onclick="validation()" value="submit">
+        </form>
+    </div>
+</body>
+</html>
